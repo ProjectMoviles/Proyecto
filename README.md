@@ -12,3 +12,9 @@ calificación, y ubicar en un mapa dónde conseguir cada plato.
 ## Integrantes
 - Derian Oreamuno Fernández
 - Cristopher Rosales Zamora
+
+- ![alt text](Docs/Mockups/detalle.png)
+- ![alt text](Docs/Mockups/dialog.png)
+- ![alt text](Docs/Mockups/formulario.png)
+- ![alt text](Docs/Mockups/lista.png)
+- ![alt text](Docs/Mockups/mapa.png)
