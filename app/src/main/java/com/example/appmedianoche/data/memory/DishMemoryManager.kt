@@ -6,9 +6,21 @@ import com.example.appmedianoche.domain.repository.IDishRepository
 class DishMemoryManager : IDishRepository {
     private val dishes = mutableListOf<Dish>()
 
-    override fun getDishes(): List<Dish> = TODO()
-    override fun getById(id: String): Dish? = TODO()
-    override fun addDish(dish: Dish) = TODO()
-    override fun updateDish(dish: Dish) = TODO()
-    override fun deleteDish(id: String) = TODO()
+    override fun getDishes(): List<Dish> = dishes
+
+    override fun getById(id: String): Dish? =
+        dishes.firstOrNull { it.id.trim() == id.trim() }
+
+    override fun addDish(dish: Dish) {
+        dishes.add(dish)
+    }
+
+    override fun updateDish(dish: Dish) {
+        deleteDish(dish.id)
+        addDish(dish)
+    }
+
+    override fun deleteDish(id: String) {
+        dishes.removeIf { it.id.trim() == id.trim() }
+    }
 }
