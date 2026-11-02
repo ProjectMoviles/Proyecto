@@ -1,4 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AppMediaNoche</string>
+    <string name="dish_list_title">Midnight Cravings</string>
+    <string name="dish_search_hint">Search dish or place</string>
+    <string name="dish_new_title">New dish</string>
+    <string name="dish_name">Dish name</string>
+    <string name="dish_place">Where it\'s sold</string>
+    <string name="dish_price">Price</string>
+    <string name="dish_type">Type</string>
+    <string name="dish_rarity_level">Rarity level</string>
+    <string name="dish_description">Description</string>
+    <string name="filter_rarity">Rarity</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_type">Type</string>
+    <string name="btn_take_photo">Take photo</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_use_location">Use my current location</string>
+    <string name="btn_save">Save dish</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="map_title">Flavor map</string>
+    <string name="vote_recommend">Would you recommend it?</string>
+    <string name="dialog_delete_title">Delete this dish?</string>
+    <string name="dialog_delete_message">This action cannot be undone.</string>
+    <string name="msg_save_success">Dish saved</string>
+    <string name="msg_delete_success">Dish deleted</string>
+    <string name="msg_not_found">No data found</string>
+    <string name="msg_error_duplicate">Error: duplicated data</string>
+
+
+
+
+
+
+
+
+
+    <string name="dish_name_hint">E.g. Chicharrón ice cream</string>
+    <string name="dish_place_hint">Place name</string>
+    <string name="dish_price_hint">₡</string>
+    <string name="dish_photo_empty">No photo yet</string>
+    <string-array name="dish_type_options">
+        <item>Street food</item>
+        <item>Soda</item>
+        <item>Fair</item>
+        <item>Bakery</item>
+        <item>Dessert</item>
+        <item>Other</item>
+    </string-array>
+    <string name="rarity_1">1</string>
+    <string name="rarity_2">2</string>
+    <string name="rarity_3">3</string>
+    <string name="rarity_4">4</string>
+    <string name="rarity_5">5</string>
+    <string name="dish_count">24 registered dishes</string>
+    <string name="filter_rating">Rating</string>
+    <string name="btn_add_dish">Add dish</string>
+    <string name="dish_photo_description">Dish photo</string>
+    <string name="nav_list">List</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_diary">My diary</string>
+
+    <!-- Sample dish (remove when the real list is connected) -->
+    <string name="dish_item_name">Chicharrón ice cream</string>
+    <string name="dish_item_place">La Esquina soda · ₡2,500</string>
+    <string name="dish_item_rarity">Rarity 5/5</string>
+    <string name="dish_item_taste">Taste 3.8</string>
+
+
+
 </resources>

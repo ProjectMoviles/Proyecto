@@ -1,3 +1,70 @@
 <resources>
     <string name="app_name">AppMediaNoche</string>
+    <string name="dish_list_title">Antojitos de media noche</string>
+    <string name="dish_search_hint">Buscar plato o lugar</string>
+    <string name="dish_new_title">Nuevo plato</string>
+    <string name="dish_name">Nombre del plato</string>
+    <string name="dish_place">Lugar donde se vende</string>
+    <string name="dish_price">Precio</string>
+    <string name="dish_type">Tipo</string>
+    <string name="dish_rarity_level">Nivel de rareza</string>
+    <string name="dish_description">Descripción</string>
+    <string name="filter_rarity">Rareza</string>
+    <string name="filter_price">Precio</string>
+    <string name="filter_type">Tipo</string>
+    <string name="btn_take_photo">Tomar foto</string>
+    <string name="btn_gallery">Galería</string>
+    <string name="btn_use_location">Usar mi ubicación actual</string>
+    <string name="btn_save">Guardar plato</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="map_title">Mapa de sabores</string>
+    <string name="vote_recommend">¿Lo recomendarías?</string>
+    <string name="dialog_delete_title">¿Eliminar este plato?</string>
+    <string name="dialog_delete_message">Esta acción no se puede deshacer.</string>
+    <string name="msg_save_success">Plato guardado</string>
+    <string name="msg_delete_success">Plato eliminado</string>
+    <string name="msg_not_found">No se encontraron datos</string>
+    <string name="msg_error_duplicate">Error: dato duplicado</string>
+
+
+
+
+
+
+
+
+
+
+    <string name="dish_name_hint">Ej. Helado de chicharrón</string>
+    <string name="dish_place_hint">Nombre del lugar</string>
+    <string name="dish_price_hint">₡</string>
+    <string name="dish_photo_empty">Sin foto todavía</string>
+    <string-array name="dish_type_options">
+        <item>Comida callejera</item>
+        <item>Soda</item>
+        <item>Feria</item>
+        <item>Panadería</item>
+        <item>Postre</item>
+        <item>Otro</item>
+    </string-array>
+    <string name="rarity_1">1</string>
+    <string name="rarity_2">2</string>
+    <string name="rarity_3">3</string>
+    <string name="rarity_4">4</string>
+    <string name="rarity_5">5</string>
+    <string name="dish_count">24 platos registrados</string>
+    <string name="filter_rating">Nota</string>
+    <string name="btn_add_dish">Agregar plato</string>
+    <string name="dish_photo_description">Foto del plato</string>
+    <string name="nav_list">Lista</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_diary">Mi diario</string>
+
+    <!-- Sample dish (remove when the real list is connected) -->
+    <string name="dish_item_name">Helado de chicharrón</string>
+    <string name="dish_item_place">Soda La Esquina · ₡2.500</string>
+    <string name="dish_item_rarity">Rareza 5/5</string>
+    <string name="dish_item_taste">Delicia 3.8</string>
 </resources>
