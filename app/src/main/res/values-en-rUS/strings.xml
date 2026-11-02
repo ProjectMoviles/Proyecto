@@ -62,7 +62,7 @@
     <string name="nav_map">Map</string>
     <string name="nav_diary">My diary</string>
 
-    <!-- Sample dish (remove when the real list is connected) -->
+
     <string name="dish_item_name">Chicharrón ice cream</string>
     <string name="dish_item_place">La Esquina soda · ₡2,500</string>
     <string name="dish_item_rarity">Rarity 5/5</string>

@@ -62,7 +62,7 @@
     <string name="nav_map">Mapa</string>
     <string name="nav_diary">Mi diario</string>
 
-    <!-- Sample dish (remove when the real list is connected) -->
+
     <string name="dish_item_name">Helado de chicharrón</string>
     <string name="dish_item_place">Soda La Esquina · ₡2.500</string>
     <string name="dish_item_rarity">Rareza 5/5</string>
