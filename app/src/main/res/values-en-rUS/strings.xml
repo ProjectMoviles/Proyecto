@@ -28,4 +28,13 @@
     <string name="msg_delete_success">Dish deleted</string>
     <string name="msg_not_found">No data found</string>
     <string name="msg_error_duplicate">Error: duplicated data</string>
+    <string name="taste_low">Gross</string>
+    <string name="taste_high">Delicious</string>
+    <string name="vote_yes">Yes, I\'d have it again</string>
+    <string name="vote_no">Never again</string>
+    <string name="vote_thanks">Thanks for your vote!</string>
+    <string name="detail_mini_map">Mini map · View location</string>
+    <string name="map_placeholder">The map will be shown here</string>
+    <string name="btn_view_detail">View details</string>
+    <string name="filter_nearby">Near me</string>
 </resources>

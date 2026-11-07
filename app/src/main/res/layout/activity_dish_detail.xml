@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DishDetailActivity">
+
+    <ScrollView
+        android:id="@+id/svDetail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/barDetail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDishPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@android:color/darker_gray"
+                android:contentDescription="@string/dish_photo_description"
+                android:scaleType="centerCrop"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvDishName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_name"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPlaceInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_place"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSchedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    tools:text="Thu-Sat 6pm-11pm" />
+
+                <TextView
+                    android:id="@+id/tvLastSeen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:visibility="gone"
+                    tools:text="Seen 2 h ago" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTypeTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_type"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRarityTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_rarity"
+                        android:layout_marginStart="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvTasteLow"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/taste_low"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvTasteHigh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/taste_high"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/progressTaste"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="70" />
+
+                <TextView
+                    android:id="@+id/tvVotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail_votes"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvRecommendTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vote_recommend"
+                    android:layout_marginTop="16dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnVoteYes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vote_yes"
+                        android:layout_weight="1"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="4dp" />
+
+                    <Button
+                        android:id="@+id/btnVoteNo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vote_no"
+                        android:layout_weight="1"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginEnd="0dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardMiniMap"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#E6E6E6"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/detail_mini_map" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/barDetail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_edit"
+            android:layout_weight="1"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="4dp" />
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_delete"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="0dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

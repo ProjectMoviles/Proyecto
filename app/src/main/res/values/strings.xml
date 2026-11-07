@@ -27,4 +27,13 @@
     <string name="msg_delete_success">Plato eliminado</string>
     <string name="msg_not_found">No se encontraron datos</string>
     <string name="msg_error_duplicate">Error: dato duplicado</string>
+    <string name="taste_low">Asco</string>
+    <string name="taste_high">Delicia</string>
+    <string name="vote_yes">Sí, lo repetiría</string>
+    <string name="vote_no">Nunca más</string>
+    <string name="vote_thanks">¡Gracias por tu voto!</string>
+    <string name="detail_mini_map">Mini mapa · Ver ubicación</string>
+    <string name="map_placeholder">Aquí se mostrará el mapa</string>
+    <string name="btn_view_detail">Ver detalle</string>
+    <string name="filter_nearby">Cerca de mí</string>
 </resources>
