@@ -37,6 +37,7 @@
 
 
 
+
     <string name="dish_name_hint">Ej. Helado de chicharrón</string>
     <string name="dish_place_hint">Nombre del lugar</string>
     <string name="dish_price_hint">₡</string>

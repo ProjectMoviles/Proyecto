@@ -37,6 +37,7 @@
 
 
 
+
     <string name="dish_name_hint">E.g. Chicharrón ice cream</string>
     <string name="dish_place_hint">Place name</string>
     <string name="dish_price_hint">₡</string>
@@ -67,7 +68,5 @@
     <string name="dish_item_place">La Esquina soda · ₡2,500</string>
     <string name="dish_item_rarity">Rarity 5/5</string>
     <string name="dish_item_taste">Taste 3.8</string>
-
-
 
 </resources>
