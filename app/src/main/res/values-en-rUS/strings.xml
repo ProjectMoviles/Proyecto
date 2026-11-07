@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMediaNoche</string>
+    <string name="dish_list_title">Midnight Cravings</string>
+    <string name="dish_search_hint">Search dish or place</string>
+    <string name="dish_new_title">New dish</string>
+    <string name="dish_name">Dish name</string>
+    <string name="dish_place">Where it\'s sold</string>
+    <string name="dish_price">Price</string>
+    <string name="dish_type">Type</string>
+    <string name="dish_rarity_level">Rarity level</string>
+    <string name="dish_description">Description</string>
+    <string name="filter_rarity">Rarity</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_type">Type</string>
+    <string name="btn_take_photo">Take photo</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_use_location">Use my current location</string>
+    <string name="btn_save">Save dish</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="map_title">Flavor map</string>
+    <string name="vote_recommend">Would you recommend it?</string>
+    <string name="dialog_delete_title">Delete this dish?</string>
+    <string name="dialog_delete_message">This action cannot be undone.</string>
+    <string name="msg_save_success">Dish saved</string>
+    <string name="msg_delete_success">Dish deleted</string>
+    <string name="msg_not_found">No data found</string>
+    <string name="msg_error_duplicate">Error: duplicated data</string>
+</resources>

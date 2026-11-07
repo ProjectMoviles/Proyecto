@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">AppMediaNoche</string>
+    <string name="dish_list_title">Antojitos de media noche</string>
+    <string name="dish_search_hint">Buscar plato o lugar</string>
+    <string name="dish_new_title">Nuevo plato</string>
+    <string name="dish_name">Nombre del plato</string>
+    <string name="dish_place">Lugar donde se vende</string>
+    <string name="dish_price">Precio</string>
+    <string name="dish_type">Tipo</string>
+    <string name="dish_rarity_level">Nivel de rareza</string>
+    <string name="dish_description">Descripción</string>
+    <string name="filter_rarity">Rareza</string>
+    <string name="filter_price">Precio</string>
+    <string name="filter_type">Tipo</string>
+    <string name="btn_take_photo">Tomar foto</string>
+    <string name="btn_gallery">Galería</string>
+    <string name="btn_use_location">Usar mi ubicación actual</string>
+    <string name="btn_save">Guardar plato</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="map_title">Mapa de sabores</string>
+    <string name="vote_recommend">¿Lo recomendarías?</string>
+    <string name="dialog_delete_title">¿Eliminar este plato?</string>
+    <string name="dialog_delete_message">Esta acción no se puede deshacer.</string>
+    <string name="msg_save_success">Plato guardado</string>
+    <string name="msg_delete_success">Plato eliminado</string>
+    <string name="msg_not_found">No se encontraron datos</string>
+    <string name="msg_error_duplicate">Error: dato duplicado</string>
 </resources>
