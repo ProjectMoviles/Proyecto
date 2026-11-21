@@ -54,17 +54,25 @@
     <string name="rarity_3">3</string>
     <string name="rarity_4">4</string>
     <string name="rarity_5">5</string>
-    <string name="dish_count">24 platos registrados</string>
+
     <string name="filter_rating">Nota</string>
     <string name="btn_add_dish">Agregar plato</string>
     <string name="dish_photo_description">Foto del plato</string>
     <string name="nav_list">Lista</string>
     <string name="nav_map">Mapa</string>
     <string name="nav_diary">Mi diario</string>
-
+    <string name="dish_count">platos registrados</string>
+    <string name="btn_search">Buscar</string>
+    <string name="dish_taste">Delicia</string>
 
     <string name="dish_item_name">Helado de chicharrón</string>
     <string name="dish_item_place">Soda La Esquina · ₡2.500</string>
     <string name="dish_item_rarity">Rareza 5/5</string>
     <string name="dish_item_taste">Delicia 3.8</string>
+
+    <string name="dish_edit_title">Editar plato</string>
+    <string name="dialog_update_title">¿Actualizar este plato?</string>
+    <string name="dialog_update_message">Se guardarán los cambios del plato.</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="msg_error_required">Completa los campos obligatorios</string>
 </resources>
