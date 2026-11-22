@@ -7,6 +7,7 @@ import com.example.appmedianoche.domain.model.Dish
 import com.example.appmedianoche.domain.model.DishType
 import com.example.appmedianoche.domain.repository.IDishRepository
 
+
 class DishViewModel : ViewModel() {
 
     companion object{
@@ -60,6 +61,5 @@ class DishViewModel : ViewModel() {
             else
                 throw Exception("It's not possible to delete the dish because it does not exist.")
         }
-
     }
 }
