@@ -27,13 +27,16 @@ class DishViewModel : ViewModel() {
             query: String = "",
             minRarity: Int = 1,
             maxPrice: Int? = null,
-            type: DishType? = null
+            type: DishType? = null,
+            minRating: Double = 0.0
         ): List<Dish> {
             return repository.getDishes().filter { dish ->
-                dish.name.contains(query, ignoreCase = true) &&
+                (dish.name.contains(query, ignoreCase = true) ||
+                        dish.placeId.contains(query, ignoreCase = true)) &&
                         dish.rarityLevel >= minRarity &&
                         (maxPrice == null || dish.price <= maxPrice) &&
-                        (type == null || dish.type == type)
+                        (type == null || dish.type == type) &&
+                        dish.deliciousScore >= minRating
             }
         }
 

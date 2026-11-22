@@ -71,4 +71,5 @@
     <string name="dialog_update_message">Se guardarán los cambios del plato.</string>
     <string name="btn_update">Actualizar</string>
     <string name="msg_error_required">Completa los campos obligatorios</string>
+    <string name="filter_clear">Quitar filtro</string>
 </resources>

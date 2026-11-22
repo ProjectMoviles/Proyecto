@@ -72,7 +72,5 @@
     <string name="dialog_update_message">The changes to the dish will be saved.</string>
     <string name="btn_update">Update</string>
     <string name="msg_error_required">Please fill in the required fields</string>
-
-
-
+    <string name="filter_clear">Clear filter</string>
 </resources>
