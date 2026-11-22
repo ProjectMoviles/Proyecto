@@ -28,15 +28,15 @@
     <string name="msg_delete_success">Dish deleted</string>
     <string name="msg_not_found">No data found</string>
     <string name="msg_error_duplicate">Error: duplicated data</string>
-
-
-
-
-
-
-
-
-
+    <string name="taste_low">Gross</string>
+    <string name="taste_high">Delicious</string>
+    <string name="vote_yes">Yes, I\'d have it again</string>
+    <string name="vote_no">Never again</string>
+    <string name="vote_thanks">Thanks for your vote!</string>
+    <string name="detail_mini_map">Mini map · View location</string>
+    <string name="map_placeholder">The map will be shown here</string>
+    <string name="btn_view_detail">View details</string>
+    <string name="filter_nearby">Near me</string>
     <string name="dish_name_hint">E.g. Chicharrón ice cream</string>
     <string name="dish_place_hint">Place name</string>
     <string name="dish_price_hint">₡</string>
@@ -63,16 +63,14 @@
     <string name="dish_count">registered dishes</string>
     <string name="btn_search">Search</string>
     <string name="dish_taste">Taste</string>
-
     <string name="dish_item_name">Chicharrón ice cream</string>
     <string name="dish_item_place">La Esquina soda · ₡2,500</string>
     <string name="dish_item_rarity">Rarity 5/5</string>
     <string name="dish_item_taste">Taste 3.8</string>
-
     <string name="dish_edit_title">Edit dish</string>
     <string name="dialog_update_title">Update this dish?</string>
     <string name="dialog_update_message">The changes to the dish will be saved.</string>
     <string name="btn_update">Update</string>
     <string name="msg_error_required">Please fill in the required fields</string>
-
+    <string name="filter_clear">Clear filter</string>
 </resources>
